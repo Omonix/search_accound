@@ -1,0 +1,128 @@
+body {
+  background-color: #b4d5c1;
+  height: 100vh;
+}
+
+textarea {
+  max-width: 300px;
+  min-height: 150px;
+  min-width: 300px;
+  flex: 1;
+  color: rgb(64, 255, 0);
+  background: linear-gradient(black, rgb(105, 171, 130));
+  border-color: rgb(64, 255, 0);
+  margin-top: 5em;
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
+textarea {
+  -ms-overflow-style: none;
+}
+
+textarea:focus-visible {
+  outline: none;
+  margin-top: 20px;
+}
+
+textarea::placeholder {
+  color: rgb(64, 255, 0);
+  opacity: 0.7;
+  font-style: italic;
+}
+
+textarea:disabled {
+  cursor: no-drop;
+  color: rgb(64, 255, 0);
+  background-color: black;
+  border-color: rgb(64, 255, 0);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  margin: 20px 20px 0px 20px;
+  flex: 1;
+}
+
+button {
+  border: solid 0.2em;
+  border-radius: 20px;
+  color: black;
+  background-color: #b4d5c1;
+  transition-duration: 0.6s;
+  border-color: black;
+}
+
+button:hover {
+  background-color: black;
+  color: #b4d5c1;
+}
+
+.imagering {
+  height: 15px;
+  width: 15px;
+  margin-top: 2px;
+}
+
+.option {
+  border: solid;
+  border-top: black;
+  border-left: black;
+  border-right: black;
+  border-bottom-color: rgb(46, 45, 45);
+}
+
+.copyButton {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  transition: 0.6s;
+}
+.copyButton:hover {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  transition: 0.6s;
+}
+.deleteButton:hover {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.img1 {
+  width: 90px;
+  padding-right: 10px;
+  margin: 10px 0px 10px 10px;
+  border: solid;
+  border-left: black;
+  border-bottom: black;
+  border-top: black;
+  border-right-color: rgb(46, 45, 45);
+}
+.pSearch {
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-top: 23px;
+  font-size: 55px;
+  cursor: default;
+  text-shadow: black 2px 2px 4px;
+  color: rgb(47, 80, 60);
+}
+.textArea2 {
+  margin-left: 40%
+}
+.buttoner {
+  height: 40px
+}
